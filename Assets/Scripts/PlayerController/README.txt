@@ -1,0 +1,1 @@
+﻿If you wish to have full control, please use the dialogue window under DragonController in your menu bar.

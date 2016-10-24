@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 89a50f17caa77e74495fb117ba644443
+timeCreated: 1476928161
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cube_000
+    100002: //RootNode
+    100004: Plane
+    100006: Plane_001
+    100008: Plane_002
+    100010: Abdomen
+    100012: Armature
+    100014: Calf_BL
+    100016: Calf_BR
+    100018: Calf_FL
+    100020: Calf_FR
+    100022: Chest
+    100024: Cube_001
+    100026: Flank_L
+    100028: Flank_R
+    100030: Foot_BL
+    100032: Foot_BR
+    100034: Foot_FL
+    100036: Foot_FR
+    100038: head
+    100040: jaw
+    100042: LowerThigh_BL
+    100044: LowerThigh_BR
+    100046: LowerThigh_FL
+    100048: LowerThigh_FR
+    100050: Neck
+    100052: neck_01
+    100054: neck_02
+    100056: Pelvis
+    100058: Plane_003
+    100060: Shoulder_L
+    100062: Shoulder_R
+    100064: Tail_01
+    100066: Tail_02
+    100068: Tail_03
+    100070: Tail_04
+    100072: Tail_05
+    100074: Tail_06
+    100076: UpperThigh_BL
+    100078: UpperThigh_BR
+    100080: UpperThigh_FL
+    100082: UpperThigh_FR
+    100084: Wing01_L
+    100086: Wing01_R
+    100088: Wing02_L
+    100090: Wing02_R
+    100092: Wing03_L
+    100094: Wing03_R
+    100096: Wing04_L
+    100098: Wing04_R
+    100100: WingBase_L
+    100102: WingBase_R
+    100104: WingFlap01_L
+    100106: WingFlap01_R
+    100108: WingFlap02_L
+    100110: WingFlap02_R
+    100112: WingFlap03_L
+    100114: WingFlap03_R
+    100116: WingMuscle_L
+    100118: WingMuscle_R
+    400000: Cube_000
+    400002: //RootNode
+    400004: Plane
+    400006: Plane_001
+    400008: Plane_002
+    400010: Abdomen
+    400012: Armature
+    400014: Calf_BL
+    400016: Calf_BR
+    400018: Calf_FL
+    400020: Calf_FR
+    400022: Chest
+    400024: Cube_001
+    400026: Flank_L
+    400028: Flank_R
+    400030: Foot_BL
+    400032: Foot_BR
+    400034: Foot_FL
+    400036: Foot_FR
+    400038: head
+    400040: jaw
+    400042: LowerThigh_BL
+    400044: LowerThigh_BR
+    400046: LowerThigh_FL
+    400048: LowerThigh_FR
+    400050: Neck
+    400052: neck_01
+    400054: neck_02
+    400056: Pelvis
+    400058: Plane_003
+    400060: Shoulder_L
+    400062: Shoulder_R
+    400064: Tail_01
+    400066: Tail_02
+    400068: Tail_03
+    400070: Tail_04
+    400072: Tail_05
+    400074: Tail_06
+    400076: UpperThigh_BL
+    400078: UpperThigh_BR
+    400080: UpperThigh_FL
+    400082: UpperThigh_FR
+    400084: Wing01_L
+    400086: Wing01_R
+    400088: Wing02_L
+    400090: Wing02_R
+    400092: Wing03_L
+    400094: Wing03_R
+    400096: Wing04_L
+    400098: Wing04_R
+    400100: WingBase_L
+    400102: WingBase_R
+    400104: WingFlap01_L
+    400106: WingFlap01_R
+    400108: WingFlap02_L
+    400110: WingFlap02_R
+    400112: WingFlap03_L
+    400114: WingFlap03_R
+    400116: WingMuscle_L
+    400118: WingMuscle_R
+    2300000: Cube_000
+    2300002: Plane
+    2300004: Plane_001
+    2300006: Plane_002
+    2300008: Plane_003
+    3300000: Cube_000
+    3300002: Plane
+    3300004: Plane_001
+    3300006: Plane_002
+    3300008: Plane_003
+    4300000: Plane_002
+    4300002: Plane_001
+    4300004: Cube_000
+    4300006: Plane
+    4300008: Plane_003
+    4300010: Cube_001
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Cube_000
+    13700002: Cube_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
