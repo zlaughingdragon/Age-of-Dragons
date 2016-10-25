@@ -210,14 +210,15 @@ public class Craftables : MonoBehaviour {
 
         timerRunning = true;
 
+        progressBarStatus.text = "";
+        getResource = true; // getresource is the issue
+        
         yield return new WaitForSeconds(timeToWait);
 
-        progressBarStatus.text = ""; 
         
 
         timerRunning = false;
 
-        getResource = true;
     }
 
 
