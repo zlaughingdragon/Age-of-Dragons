@@ -58,7 +58,72 @@ public class Craftables : MonoBehaviour {
 
     */
 
+    #region GetResource
+    IEnumerator GetResource()
+    {
 
+        gettingResource = true;
+
+        if (getResource)
+        {
+            //items.Add((itemType)item[0]);
+
+
+            resourceAmountToAdd = (int)item[2];
+
+            //print(tmp.name);
+            Debug.Log((int)item[1]);
+
+            for (int i = 0; i < nearbyResources.Count; i++)
+            {
+                if (nearbyResources[i] != null && nearbyResources.Count < 2)
+                {
+                    items.Add((itemType)nearbyResources[i].currentType);
+                    if (items[0] == itemType.wood)
+                    {
+                        woodAmount += resourceAmountToAdd;
+
+                        if ((int)item[1] == nearbyResources[i].currentID)
+                            Destroy(nearbyResources[i].gameObject);
+
+                        nearbyResources = null;
+                        items.Clear();
+
+                    }
+                    else if (items[0] == itemType.stone)
+                    {
+                        stoneAmount += resourceAmountToAdd;
+
+                        if ((int)item[1] == nearbyResources[i].currentID)
+                            Destroy(nearbyResources[i].gameObject);
+                        nearbyResources = null;
+                        items.Clear();
+                    }
+                    else if (items[0] == itemType.food)
+                    {
+                        foodAmount += resourceAmountToAdd;
+
+                        if ((int)item[1] == nearbyResources[i].currentID)
+                            Destroy(nearbyResources[i].gameObject);
+                        nearbyResources = null;
+                        items.Clear();
+                    }
+                }
+                else { print("Standing near too many objects."); }
+            }
+
+
+
+            yield return new WaitForSeconds(1);
+            canGetResource = false;
+            getResource = false;
+            tmp = null;
+        }
+        gettingResource = false;
+
+    }
+
+    #endregion
 
     #region conceptScript
 
@@ -221,70 +286,6 @@ public class Craftables : MonoBehaviour {
 
     }
 
-
-    IEnumerator GetResource()
-    {
-
-        gettingResource = true;
-
-        if (getResource)
-        {
-            //items.Add((itemType)item[0]);
-
-            
-            resourceAmountToAdd = (int)item[2];
-
-            //print(tmp.name);
-            Debug.Log((int)item[1]);
-
-            for (int i = 0; i < nearbyResources.Count; i++)
-            {
-                if (nearbyResources[i] != null && nearbyResources.Count < 2)
-                {
-                    items.Add((itemType)nearbyResources[i].currentType);
-                    if (items[0] == itemType.wood)
-                    {
-                        woodAmount += resourceAmountToAdd;
-
-                        if ((int)item[1] == nearbyResources[i].currentID)
-                            Destroy(nearbyResources[i].gameObject);
-
-                        nearbyResources = null;
-                        items.Clear();
-
-                    }
-                    else if (items[0] == itemType.stone)
-                    {
-                        stoneAmount += resourceAmountToAdd;
-
-                        if ((int)item[1] == nearbyResources[i].currentID)
-                            Destroy(nearbyResources[i].gameObject);
-                        nearbyResources = null;
-                        items.Clear();
-                    }
-                    else if (items[0] == itemType.food)
-                    {
-                        foodAmount += resourceAmountToAdd;
-
-                        if ((int)item[1] == nearbyResources[i].currentID)
-                            Destroy(nearbyResources[i].gameObject);
-                        nearbyResources = null;
-                        items.Clear();
-                    }
-                }
-                else { print("Standing near too many objects."); }
-            }
-
-
-
-            yield return new WaitForSeconds(1);
-            canGetResource = false;
-            getResource = false;
-            tmp = null;
-        }
-        gettingResource = false;
-        
-    }
 
     #endregion
     
